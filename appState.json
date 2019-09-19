@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "31aa4453-1bd0-4687-a4bd-f20d7148314e": {
+        "id": "31aa4453-1bd0-4687-a4bd-f20d7148314e",
+        "parent": null,
+        "name": "hiru1909_gitmerge",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "93f72b29-2a46-41f2-b6b0-87d773943487"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru1909_gitmerge"
+      },
+      "93f72b29-2a46-41f2-b6b0-87d773943487": {
+        "id": "93f72b29-2a46-41f2-b6b0-87d773943487",
+        "parent": "31aa4453-1bd0-4687-a4bd-f20d7148314e",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1909_gitmerge/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "31aa4453-1bd0-4687-a4bd-f20d7148314e",
+    "openFiles": [
+      "93f72b29-2a46-41f2-b6b0-87d773943487"
+    ],
+    "currentFileId": "93f72b29-2a46-41f2-b6b0-87d773943487",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru1909_gitmerge",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568867390207
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru1909_gitmerge",
+      "url": "https://github.com/HirudineeADRT/hiru1909_gitmerge"
+    }
+  }
+}
